@@ -3,7 +3,7 @@ import './App.css'
 function App() {
 
 
-  return <div>PlaceHolder</div>
+  return <div className='heading'>PlaceHolder</div>
     
 }
 
