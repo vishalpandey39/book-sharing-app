@@ -6,7 +6,7 @@ import "../App.css";
 function ProductsPage() {
   return (
     <div className="books-page">
-      {booksData.map((book) => <Card book={book} />)}
+      {booksData.map((book) => <Card key={book.id} book={book} />)}
     </div>
   )
 }
